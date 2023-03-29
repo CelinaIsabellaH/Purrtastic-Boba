@@ -1,0 +1,138 @@
+body {
+    background-color: #ffe5d9;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+
+}
+
+
+
+/* Header */
+
+.Header-container {}
+
+header img {
+    height: 400px;
+    width: 400px;
+    margin: -60px;
+
+}
+
+nav {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav span {
+    padding: 10px;
+}
+
+header {
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    font-size: larger;
+}
+
+
+/* Main Area */
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+#intro {
+    height: 300px;
+    background-image: url(rose-milk-tea-recipe-boba-e1613911489496.jpg);
+
+    width: 100%;
+    padding-top: 100px;
+
+}
+
+#intro .nitro {
+    margin: auto;
+    width: 100%;
+    background-color: seashell;
+}
+
+/* Boba */
+
+.flex-items {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 25px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.items img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+
+}
+
+.items span {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* Founders */
+
+.founders {
+    background-image: url(Why-Do-Cats-Make-Biscuits.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.founders {
+    flex-basis: 280px;
+    justify-content: space-evenly;
+}
+
+
+.found img {
+    height: 300px;
+    width: 300px;
+}
